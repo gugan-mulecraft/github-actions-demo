@@ -1,0 +1,31 @@
+{
+  "configs": [
+    "github-actions-demo.xml"
+  ],
+  "secureProperties": [
+    "anypoint.platform.client_id",
+    "anypoint.platform.client_secret"
+  ],
+  "supportedJavaVersions": [],
+  "redeploymentEnabled": true,
+  "name": "425d5788-11bd-4f97-b338-4ee46a79faaa:github-actions-demo:1.0.0",
+  "minMuleVersion": "4.6.1",
+  "requiredProduct": "MULE_EE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedPackages": [],
+      "exportedResources": [
+        "config/dev.yaml",
+        "config/prod.yaml",
+        "config/qa.yaml",
+        "github-actions-demo.xml",
+        "log4j2.xml"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}

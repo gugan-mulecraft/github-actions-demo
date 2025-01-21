@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>425d5788-11bd-4f97-b338-4ee46a79faaa</groupId>
+  <artifactId>github-actions-demo</artifactId>
+  <version>1.0.0</version>
+  <name>github-actions-demo</name>
+  <properties>
+    <classifier>raml</classifier>
+    <main>github-actions-demo.raml</main>
+    <status>published</status>
+    <originalFormatVersion>1.0</originalFormatVersion>
+    <apiVersion>1.0</apiVersion>
+    <projectId>00f74ed7-d18f-4e81-bf08-b903c2158513</projectId>
+    <branchId>master</branchId>
+    <commitId>7cf3f536a723eb2610911870056690c77d3da579</commitId>
+    <keywords/>
+    <type>rest-api</type>
+    <mainFile>github-actions-demo.raml</mainFile>
+  </properties>
+  <repositories>
+    <repository>
+      <id>anypoint-exchange</id>
+      <url>https://maven.anypoint.mulesoft.com/api/v3/maven</url>
+    </repository>
+  </repositories>
+</project>
